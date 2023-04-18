@@ -20,6 +20,7 @@ links.forEach(function(link, i) {
 });
 
 document.getElementById("web-developer").addEventListener("click", navigateToAboutSection);
+document.getElementById("mobile-developer").addEventListener("click", navigateToAboutSection);
 
 function navigateToAboutSection() {
   const allElements = document.querySelectorAll('section');
