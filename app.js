@@ -18,3 +18,18 @@ links.forEach(function(link, i) {
     }
   });
 });
+
+document.getElementById("web-developer").addEventListener("click", navigateToAboutSection);
+
+function navigateToAboutSection() {
+  const allElements = document.querySelectorAll('section');
+  
+  allElements.forEach((element) => {
+    element.classList.remove('active');
+  });
+
+  var element = document.getElementById("about");
+  element.classList.add("active");
+
+  activeLink = 1;
+}

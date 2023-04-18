@@ -1,0 +1,147 @@
+@media only screen and (max-width: 599px) {
+    .home-section{
+        width: 100%;
+        height: 100vh;
+        padding: 5vh;
+        display: flex;
+        align-items: start;
+        position: relative;
+        top: 0;
+        opacity: 0;
+        transition: 1s;
+        margin-top: 120px;
+        flex-direction: column;
+    }
+
+    .hero-heading{
+        color: #fff;
+        font-size: 60px;
+        text-transform: capitalize;
+        font-weight: 300;
+    }
+
+    .home-img {
+        height: 40vh;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .home-section{
+        position: fixed;
+    }
+
+    .home-section ul {
+        color: #fff;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .home-section{
+        width: 100%;
+        height: 100vh;
+        padding: 0 150px;
+        display: flex;
+        align-items: start;
+        position: relative;
+        top: 0;
+        opacity: 0;
+        transition: 1s;
+        margin-top: 120px;
+        flex-direction: column;
+    }
+    
+    .hero-heading{
+        color: #fff;
+        font-size: 100px;
+        text-transform: capitalize;
+        font-weight: 300;
+    }
+    
+    .home-img {
+        height: 40vh;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .home-section{
+        position: fixed;
+    }
+    
+    .home-section ul {
+        color: #fff;
+        font-size: 14px;
+    }    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .home-section{
+        width: 100%;
+        height: 100vh;
+        padding: 0 150px;
+        display: flex;
+        align-items: start;
+        position: relative;
+        top: 0;
+        opacity: 0;
+        transition: 1s;
+        margin-top: 120px;
+        flex-direction: column;
+    }
+    
+    .hero-heading{
+        color: #fff;
+        font-size: 100px;
+        text-transform: capitalize;
+        font-weight: 300;
+    }
+    
+    .home-img {
+        height: 40vh;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .home-section{
+        position: fixed;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .home-section{
+        width: 100%;
+        height: 60vh;
+        padding: 0 150px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        top: 0;
+        opacity: 0;
+        transition: 1s;
+    }
+    
+    .home-section ul {
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    .hero-heading{
+        color: #fff;
+        font-size: 100px;
+        text-transform: capitalize;
+        font-weight: 300;
+    }
+    
+    .home-img{
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 60vh;
+        width: 50%;
+        object-fit: cover;
+    }
+    
+    .home-section{
+        position: fixed;
+    }
+}

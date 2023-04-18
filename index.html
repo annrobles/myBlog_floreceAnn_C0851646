@@ -2,10 +2,9 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel='stylesheet' media='screen and (max-width: 599px)' href='css/extra-small.css' />
-        <link rel='stylesheet' media='screen and (min-width: 600px) and (max-width: 767px)' href='css/small.css' />
-        <link rel='stylesheet' media='screen and (min-width: 768px) and (max-width: 991px)' href='css/medium.css' />
-        <link rel='stylesheet' media='screen and (min-width: 992px)' href='css/large.css' />
+        <link rel='stylesheet' href='css/main.css' />
+        <link rel='stylesheet' href='css/content.css' />
+        <link rel='stylesheet'  href='css/style.css' />
     </head>
     <body>
         <header>
@@ -23,11 +22,18 @@
 
 
         <section class="home-section active">
-            <h1 class="hero-heading">hello, i am <br> Ann</h1>
+            <div>
+                <h1 class="hero-heading">hello, i am <br> Ann</h1>
+                <ul>
+                    <li><a href="#about" id="web-developer">Web Developer,</a> </li>
+                    <li><a href="#about"></a>Mobile Developer, and a</a> </li>
+                    <li>Mountaineer</li>
+                </ul>
+            </div>
             <img src="img/home.jpg" class="home-img" alt="">
         </section>
 
-        <section class="about-section">
+        <section class="about-section" id="about">
             <div class="about">
                 <div class="about-info">
                     <p>Experience Senior Front-end developer with 8+ years of experience in web development. I help small and large companies like RCG, CoreBridge, and CoDev make beautiful, functional, responsive, and accessible user interfaces, to increase their annual revenue. I have hands on experience building websites from the ground up, working on enterprise level softwares, adding new feature or functionality to existing softwares, and fixing or troubleshooting production issues.</p>
@@ -186,7 +192,9 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d288698.86218779165!2d-79.61531979407021!3d43.65322556617665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sus!4v1650262421253!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </section>
-
+        <footer>
+            &copy; Copyright 2023 Florece Ann Robles
+         </footer>   
         <script src="app.js"></script>
 
     </body>
